@@ -1,0 +1,35 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css?family=Bangers&display=swap');
+
+* {
+    font-family: 'Bangers', cursive;
+}
+
+/* Marvel image background */
+.bg {
+    height: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../images/Marvel-Background.jpg);
+    padding-bottom: 46.66%;
+    background-attachment: fixed;
+}
+
+.marvelTitle {
+    font-size: 10vh;
+    color: white;
+    letter-spacing: 1vh;
+    text-align: center;
+    width:  auto;
+    padding-left: 3vh;
+}
+
+.marvelSubHeader {
+    font-size: 5vh;
+    color: slategray;
+    letter-spacing: 1vh;
+    text-align: center;
+    width: auto;
+    padding-left: 3vh;
+}
