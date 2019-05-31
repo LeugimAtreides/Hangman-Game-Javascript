@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -9,41 +10,85 @@
     <link rel="stylesheet" href="assets/css/style.css">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <title>Marvel: Word Guess Game</title>
-  </head>
-  <body>
+</head>
+
+<body>
+    <!-- holds container that contains header and main content -->
     <div class="container.fluid bg">
         <div class="row d-flex justify-content-center">
             <div class="col align-self-center">
                 <h1 class="marvelTitle">Battle of Heroes</h1>
             </div>
         </div>
+        <!-- holds the subheader which will also be static -->
         <div class="row d-flex justify-content-center">
             <div class="col align-self-center">
                 <h2 class="marvelSubHeader">The Heroic Word Guess Game</h2>
             </div>
         </div>
-
+        <!-- holds the introduction and instructions for the game which will change when the player starts the game -->
         <div class="row d-flex justify-content-center">
             <div class="col align-self-center">
-                <p id="storyScreenText"> </p>
+                <div id="marvelGameCard" class="d-flex justify-content-center">
+                    <div class="card-body">
+                        <p id="storyScreenText" class="text-center">
+
+
+                            Welcome True Believer, the universe is once again in peril from some of the most dangerous
+                            forces in the Universe!
+                            <br>
+                            The devious cadre of villains known only as "The Cabal" have locked away our heroes and only
+                            you can free them!
+                            <br>
+                            A spell has bound each hero to their now-forgotten name. You, True Believer, must uncover
+                            their names in order to release them.
+                            <br>
+                            Guess their name letter by letter until it is revealed. Beware though, too many wrong
+                            guesses will doom us all...
+                            <br>
+                            Do you have what it takes to save the heroes in time?
+                            <br>
+                            Hit the "Space" bar to find out!
+
+
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+
+        <div class="container.fluid">
+            <div class="d-flex text-center">
+                <footer>
+                    Copyright 2019. Designed and Created by M.E. Villarreal
+                </footer>
+            </div>
 
         </div>
 
 
-    </div>
 
 
-    
 
+        <!-- Optional JavaScript -->
+        <script src="assets/javascript/game.js"></script>
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+</body>
 
-    <!-- Optional JavaScript -->
-    <script src="assets/javascript/game.js"></script>
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
 </html>
