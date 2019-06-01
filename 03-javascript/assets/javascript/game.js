@@ -54,7 +54,11 @@ $(document).readyState(function () {
 
                 if (userGuessModified == userPoolOfLetters.indexOf()) {
                     // defines the situation where the user hits a key that matches the alphabet array
-                    
+                    this.userPoolOfLetters.splice(userGuessModified);
+                    // defines the need for removing the used letter from the pool of letters
+                    this.numberOfGuesses++;
+                    // increased the number of guesses value by one
+                    document.this.lettersLeft.innerHTML(this.userPoolOfLetters);
                 }
             }
 
