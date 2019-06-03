@@ -48,7 +48,7 @@
                 let userGuessModified = userGuess.toUpperCase();
                 // defines the variable that changes the user input into a upper case character
 
-                for (let i = 0; i < namesAndUnderscoredCounterParts.length; i++) {
+                for (let i = 0; i < this.namesAndUnderscoredCounterParts.length; i++) {
 
                     // for each new UserGuessModified in the Array, we crete a new paragraph to hold that text
                     const namesAndUnderscoredCounterPartsIndex = namesAndUnderscoredCounterParts[i];
