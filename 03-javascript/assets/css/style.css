@@ -6,6 +6,9 @@
 }
 
 /* Marvel image background */
+body {
+    height: 1vh;
+}
 .bg {
     height: 90%;
     background-position: center;
