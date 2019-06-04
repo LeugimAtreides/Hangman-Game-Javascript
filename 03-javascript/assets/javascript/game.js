@@ -1,7 +1,7 @@
 
 
 // I will attempt to put everything inside of an object since it keep things tight and organized into "heroes"
-    
+    console.log("Is this mic on?")
     // The object will be called heroes and it will have hero names on the left and concurrent underscore spaces on the right
     var heroes = {
         // Creating the matching hero names with their underscore counterpart
